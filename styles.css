@@ -1,3 +1,26 @@
+a {
+    background-color: rgb(243, 119, 119);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 2.5px;   
+    transition: 0.3s ease;
+    font-weight: bold;
+}  
+
+a:hover {
+    background-color: rgb(200, 80, 80);
+    color: white;
+
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -8,17 +31,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 30px;
     padding: 40px 20px;
+    gap: 40px;
 }
 
 /* Devlog */
 .container {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     background: rgb(255, 255, 255);
     padding: 20px;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 /* Panel personaje */
