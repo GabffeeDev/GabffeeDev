@@ -7,6 +7,37 @@ a {
     font-weight: bold;
 }  
 
+
+.title {
+    margin-left: 1380px;
+    background-color: white;
+    width: 240px;
+    margin-top: 20px;
+    padding: 2px;
+    transform: translateX(-50%);
+    
+    background-color: white;
+    width: 240px;
+    padding: 8px;
+    text-align: center;
+}
+}
+
+
+.dev {
+    font-weight: bold;
+    background-color: rgb(255, 254, 252);
+    width: 100px;
+    padding: 4px;
+}
+
+.artist {
+    font-weight: bold;
+    background-color: rgb(255, 254, 252);
+    width: 100px;
+    padding: 4px;
+}
+
 a:hover {
     background-color: rgb(200, 80, 80);
     color: white;
